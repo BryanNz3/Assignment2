@@ -1,5 +1,6 @@
 
 
+  bBrick  bB;
   iBrick  iB;
   sBrick  sB;
   zBrick  zB;
@@ -15,6 +16,7 @@ void setup(){
   lB = new lBrick();
   jB = new jBrick();
   tB = new tBrick();
+  bB = new bBrick();
   
 }
 
@@ -50,5 +52,9 @@ void draw(){
   tB.rotation();
   tB.checkEdges();
   
+  tB.Display();
+  tB.move();
+  tB.rotation();
+  tB.checkEdges();
 
 }
