@@ -65,5 +65,15 @@ Block(float _x , float _y){
        }
        
      }
+     if(key == 'w'){
+       
+       if( pos.y != 0){
+         
+          pos.y -= 20; 
+         
+       }
+       
+     }
+     /////////  
 
 }
