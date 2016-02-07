@@ -18,5 +18,26 @@ class Block{
   
 }
 
+Block(float _x , float _y){
+  
+  pos = new PVector( 0, 0);
+  area = new PVector(20,20);
+  
+  
+  pos.x = _x;
+  pos.y = _y;
+  
+}
+
+/////////////////////////  Displaying of the Block
+ void display(){
+   
+   stroke(255);
+   fill(#FF4500);
+   
+   rect(pos.x,pos.y,area.x,area.y);
+   
+ }
+
 
 }
