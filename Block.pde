@@ -39,5 +39,20 @@ Block(float _x , float _y){
    
  }
 
+ //////////////////////////  Movement of individual Block
+ void move(){
+   
+   /////////////    Motion of Blocks
+   if(keyPressed){
+     
+     if(key == 'd'){
+       
+       if( pos.x != rightE){
+         
+          pos.x += rmotion; 
+         
+       }
+       
+     }
 
 }
