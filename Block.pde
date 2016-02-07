@@ -54,5 +54,16 @@ Block(float _x , float _y){
        }
        
      }
+      //////
+     if(key == 'a'){
+       
+       if( pos.x != leftE)
+       {
+         
+          pos.x -= lmotion; 
+         
+       }
+       
+     }
 
 }
