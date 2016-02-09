@@ -17,6 +17,12 @@ class Brick{
     b3 = new Block(pos2.x , pos2.y - 20);
     b4 = new Block(pos2.x - 20, pos2.y );
 
+      void show(){
     
+      pushMatrix();
+      translate(width/2+(b3.area.x/2), height/2 +(b3.area.y/2));
+      rotate(r);
+      translate(-width/2+(b3.area.x/2), -height/2 +(b3.area.y/2));
+      
     
   }
