@@ -32,5 +32,16 @@ class Brick{
       popMatrix();
     
   }
+  void motion(){
+    
+    
+    if(b1.pos.y != height-20)
+    {
+      b1.move();
+      b2.move();
+      b3.move();
+      b4.move();
+      
+    }
     
   }
