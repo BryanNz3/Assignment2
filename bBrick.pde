@@ -81,6 +81,14 @@ class bBrick{
   
   void rotation(){
     
+      if(keyPressed)
+  {
+    if(key == 'f')
+    {
+        r += (PI/4);
+
+    }
+    
   }
   
   void checkEdges(){
