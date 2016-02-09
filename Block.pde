@@ -74,6 +74,13 @@ Block(float _x , float _y){
        }
        
      }
-     /////////  
+     ///////// 
+      if(key == 's'){
+    if(pos.y != downE )
+    {
+     pos.y += 5;
+      
+    }
+   }
 
 }
