@@ -37,6 +37,46 @@ class bBrick{
   
   void move(){
     
+    
+     if(b1.pos.y != height-20)
+    {
+      b1.move();
+      b2.move();
+      b3.move();
+      b4.move();
+      
+    }
+    
+    
+    if( b1.pos.x == b1.rightE)
+    {
+      b2.rmotion = 0;
+      b3.rmotion = 0;
+      b4.rmotion = 0;
+    
+    }else if(b1.pos.x != b1.rightE)
+     {
+       b2.rmotion = 20;
+       b3.rmotion = 20;
+       b4.rmotion = 20;
+
+     }
+      
+    
+    if( b4.pos.x == b4.leftE)
+    {
+      b2.lmotion = 0;
+      b3.lmotion = 0;
+      b1.lmotion = 0;
+    
+    }else if(b1.pos.x != b1.leftE)
+     {
+       b2.lmotion = 20;
+       b3.lmotion = 20;
+       b1.lmotion = 20;
+
+     }
+    
   }
   
   void rotation(){
