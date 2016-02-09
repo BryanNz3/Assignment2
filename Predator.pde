@@ -70,6 +70,23 @@ class Brick{
 
      }
     
-     
+         
+  }
+  
+  void rotation(){
+    
+    if(keyPressed)
+  {
+    if(key == 'f')
+    {
+        r += (PI/4);
+
+    }
+    
+  }
+    
+    
+  }
+  
     
   }
