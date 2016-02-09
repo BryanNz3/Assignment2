@@ -33,4 +33,18 @@ if(key == CODED) //Controls P1 movement
          Player1_Left = false;
          Player1_Up = false;
      }
+     if ((key == 'W') || (key == 'w')) //Controls P2 movement
+     { 
+         Player2_Up = true;
+         Player2_Down = false;
+         Player2_Left = false;
+         Player2_Right = false;
+     }
+
+     else if((key == 'S') || (key == 's'))
+     {
+         Player2_Down = true;
+         Player2_Up = false;
+         Player2_Left = false;
+         Player2_Right = false;
  }
