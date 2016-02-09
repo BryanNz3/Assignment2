@@ -21,7 +21,18 @@ class bBrick{
   }
   
   void Display(){
+          pushMatrix();
+      translate(width/2+(b3.area.x/2), height/2 +(b3.area.y/2));
+      rotate(r);
+      translate(-width/2+(b3.area.x/2), -height/2 +(b3.area.y/2));
+      
+      
+    b1.display();
+    b2.display();
+    b3.display();
+    b4.display();
     
+      popMatrix();
   }
   
   void move(){
