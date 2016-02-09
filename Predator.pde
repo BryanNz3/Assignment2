@@ -56,6 +56,20 @@ class Brick{
        b4.rmotion = 20;
 
      }
+     if( b4.pos.x == b4.leftE)
+    {
+      b2.lmotion = 0;
+      b3.lmotion = 0;
+      b1.lmotion = 0;
+    
+    }else if(b1.pos.x != b1.leftE)
+     {
+       b2.lmotion = 20;
+       b3.lmotion = 20;
+       b1.lmotion = 20;
+
+     }
+    
      
     
   }
